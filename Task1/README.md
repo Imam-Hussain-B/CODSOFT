@@ -4,6 +4,9 @@
 ## Project Overview
 This project is a part of a virtual internship at Codsoft and involves predicting Titanic passenger survival using logistic regression. The dataset, containing information such as passenger age, gender, ticket class, fare, and survival status, serves as the foundation for this analysis. Using SAS Visual Analytics, the project showcases data preprocessing, feature engineering, and the application of logistic regression to build a predictive model. It also includes insightful visualizations that reveal survival trends across different features.
 
+# Dasboard
+
+![Image](https://github.com/user-attachments/assets/9a88ea56-61b5-4170-a6e8-7cfc25335d5a)
 
 
 ### Problem Statement
