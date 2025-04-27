@@ -84,7 +84,7 @@ Accuracy is the proportion of observations that are correctly classified as eith
 
 Snap of Model Accuracy:
 
-![Image](https://github.com/user-attachments/assets/b16f93ac-4d97-4742-b03c-86a78811ef2e)
+![Image](https://github.com/user-attachments/assets/ed482bce-4d8b-4836-9942-5fdb441237ca)
 
 # Model Confusion Matrix:
 
@@ -92,21 +92,20 @@ The confusion matrix plot displays the number of observations predicting each re
 
 Snap of Confusion Matrix:
 
-![Image](https://github.com/user-attachments/assets/bf94cede-37fb-48c4-a5b7-002019a088f1)
-
+![Image](https://github.com/user-attachments/assets/7a1d1ada-b0da-476a-ac87-49284e2fe3e3)
 # Model F1 Score:
 
 For this model, the F1 score on the TRAIN partition at a cutoff of 0.5 is 0.677. The F1 score balances precision and recall, which are derived from the confusion matrix at different cutoffs (ranging from 0 to 1 in steps of 0.01). Predictions are classified as events if the predicted probability (P_Survived1) meets or exceeds the cutoff. The confusion matrix records true positives (TP), false positives (FP), false negatives (FN), and true negatives (TN). Precision is calculated as TP / (TP + FP), and recall (sensitivity) as TP / (TP + FN).
 
 Snap of F1 Score:
 
-![Image](https://github.com/user-attachments/assets/ea3cd0ea-33d6-401b-9de9-10108e845a0c)
+![Image](https://github.com/user-attachments/assets/49847627-bec4-4df5-9423-32bc313ab378)
 # Model ROC Curve:
 
 The ROC curve plots sensitivity (true positive rate) against 1-specificity (false positive rate), based on confusion matrix values calculated across various cutoff points. The KS Cutoff line marks the cutoff (at 0.55) where the difference between sensitivity (0.594) and 1-specificity (0.084) is greatest for the TRAIN partition. At each cutoff (ranging from 0 to 1), a prediction is classified as an event if the predicted probability (P_Survived1) meets or exceeds the cutoff. Confusion matrices show true positives (TP), false positives (FP), false negatives (FN), and true negatives (TN). Sensitivity = TP / (TP + FN), while 1-specificity = FP / (TN + FP). A ROC curve closer to the upper-left corner suggests a better model, while a diagonal curve indicates random performance.
 
 Snap of ROC Curve:
-![Image](https://github.com/user-attachments/assets/c9546008-7bb6-4311-881b-6fce94cc0c19)
+![Image](https://github.com/user-attachments/assets/46e112c0-01a3-4051-860a-dbd7f9ab3268)
 
 # Key Trends in the Scatter Plot
 - Children's Survival:- Younger passengers (e.g., children under 10) are likely clustered closer to Survived = 1, indicating higher survival rates.
@@ -126,7 +125,7 @@ Age: Younger passengers, especially children, showed better survival probabiliti
 Snap of Scatter Plot:
 
 
-![Image](https://github.com/user-attachments/assets/58babb56-967f-4331-9b0e-70b0f4ea0c98)
+![Image](https://github.com/user-attachments/assets/a89b2153-693a-4453-a214-b0989ecbc243)
 
 
 
